@@ -1,0 +1,113 @@
+ {
+ 	font-family: "Inter", sans-serif;
+ 	font-optical-sizing: auto;
+
+ }
+
+
+ .navbar {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	padding: 30px 200px;
+ 	background-color: #1a0b2e;
+
+ }
+
+ .logo {
+ 	color: white;
+ }
+
+
+
+ #arfi {
+ 	background: linear-gradient(90deg, #fc059d);
+ 	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ }
+
+ nav a {
+ 	text-decoration: none;
+ 	font-size: 16px;
+ 	font-weight: 600;
+ 	color: white;
+ 	margin-left: 32px;
+ }
+
+ .btn {
+ 	color: white;
+ 	padding: 12px;
+ 	background: linear-gradient(90deg, #ffb703, #fc059d);
+
+ }
+
+ .hero-section {
+ 	height: 760px;
+ 	width: 100%;
+
+
+ 	background-image: url(./hero-bg.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+ 	scroll-padding-top: 100px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ .hero-container {
+ 	text-align: center;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ }
+
+ .circle {
+ 	position: relative;
+ 	background-image: url(./hero-circle.png);
+
+ 	background-size: cover;
+ 	background-position: center;
+ 	width: 350px;
+
+ 	height: 350px;
+ 	border-radius: 50%;
+ 	margin-bottom: 40px;
+
+ }
+
+ .icon {
+ 	width: 100px;
+ 	height: auto;
+ 	padding: 69px 85px;
+ }
+
+ .badge {
+ 	position: absolute;
+
+ 	right: 50px;
+ 	background-color: #00ff88;
+
+ 	border-radius: 5px;
+ 	padding: 6px 10px;
+ }
+
+ .title {
+ 	color: #ffffff;
+ 	font-size: 60px;
+ 	font-weight: 800;
+ 	margin-bottom: 8px;
+ }
+
+ .text {
+ 	margin-top: 0;
+ 	color: #ffffff;
+ 	font-size: 16px;
+
+ }
+
+ .button1 {
+ 	background: linear-gradient(90deg, #ffb703, #fc059d);
+
+ }
