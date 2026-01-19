@@ -111,3 +111,59 @@
  	background: linear-gradient(90deg, #ffb703, #fc059d);
 
  }
+
+ .podcast {
+ 	background-color: #1A0B2E;
+ 	padding: 80PX 0;
+ 	color: white;
+
+ 	text-align: center;
+
+ }
+
+ .podcast-container {
+ 	max-width: 1600px;
+ 	margin: 0 auto;
+ 	padding: 0 20px
+ }
+
+ .podcast-container h2 {
+ 	font-size: 48px;
+ 	font-weight: 700;
+ 	color: #ffffff;
+ 	margin-bottom: 16px;
+ }
+
+ .podcast-container p {
+ 	font-size: 16px;
+ 	padding-bottom: 80px;
+ }
+
+ .line {
+ 	border: none;
+ 	border-top: 1px solid #333;
+ 	width: 1200px;
+ }
+
+ .stat {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	gap: 80px;
+ }
+
+ .stat-item {
+ 	flex: 1;
+
+ }
+
+ .stat-item h3 {
+ 	color: #00ff88;
+ 	font-size: 48px;
+ 	margin-bottom: 16px;
+ }
+
+ .stat-item p {
+ 	font-size: 16px;
+ 	color: #ffffff;
+ 	line-height: 20px;
+ }
