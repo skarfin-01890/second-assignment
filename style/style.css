@@ -610,21 +610,59 @@
 		}
 
 
-	}
 
-	.featured-episodes {
-		padding: 40px 15px;
-	}
 
-	.episodes-container {
-		display: flex;
-		flex-direction: column;
-		gap: 20px;
-		align-items: center;
-	}
+		.featured-episodes {
+			padding: 40px 15px;
+		}
 
-	.episode-card {
-		width: 100%;
-		max-width: 400px;
+		.episodes-container {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			align-items: center;
+		}
+
+		.episode-card {
+			width: 100%;
+			max-width: 400px;
+		}
+
+
+		.host {
+			padding: 60px 20px;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.host-card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+
+		}
+
+		.social-icons {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 20px;
+		}
+
+		.footer-section {
+			padding: 40px 20px;
+		}
+
+		.footer-content {
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+		}
+
+		.platform-links {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			margin-bottom: 10px;
+		}
+
 	}
-}
