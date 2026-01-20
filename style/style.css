@@ -38,8 +38,39 @@
 		color: white;
 		padding: 12px;
 		background: linear-gradient(90deg, #ffb703, #fc059d);
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		border-radius: 50px;
+		padding: 10px 20px;
+		color: white;
+		border: none;
+		cursor: pointer;
+		animation: color-pulse-glow 2s infinite;
+
 
 	}
+
+	@keyframes color-pulse-glow {
+		0% {
+			transform: scale(1);
+			background: linear-gradient(90deg, #ffb703, #fc059d);
+			box-shadow: 0 0 0 rgba(104, 5, 252, 0.7);
+		}
+
+		50% {
+			transform: scale(1.05);
+			box-shadow: 0 0 0 0 15px rgba(252, 5, 157, 0);
+		}
+
+		100% {
+			transform: scale(1);
+			background: linear-gradient(90deg, #fc059d, #8000ff);
+			box-shadow: 0 0 0 rgba(252, 5, 157, 0);
+		}
+	}
+
+
 
 	.hero-section {
 		height: 760px;
@@ -107,9 +138,42 @@
 
 	}
 
+	.button {
+		display: flex;
+		gap: 10px;
+	}
+
 	.button1 {
 		background: linear-gradient(90deg, #ffb703, #fc059d);
+		color: white;
+		padding: 12px;
+		display: flex;
 
+		align-items: center;
+		gap: 8px;
+		border-radius: 50px;
+		padding: 10px 20px;
+		color: white;
+		border: none;
+		cursor: pointer;
+		animation: color-pulse-glow 2s infinite;
+
+
+
+
+
+	}
+
+	.button2 {
+		background: transparent;
+		color: #33cc99;
+		border: 2px solid #33cc99;
+		padding: 10px 22px;
+		border-radius: 50px;
+		display: flex;
+		justify-content: center;
+		gap: 10px;
+		cursor: pointer;
 	}
 
 	.podcast {
@@ -457,3 +521,110 @@
 		margin-top: 32px;
 		color: #fafafa;
 	}
+
+	.humburger {
+		display: none;
+		cursor: pointer;
+	}
+
+	@media screen and (max-width:576px) {
+
+		nav,
+		.navbar .btn {
+			display: none;
+		}
+
+
+
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px 20px;
+		}
+
+
+		.humburger {
+			display: block;
+		}
+
+		.hero-section {
+			height: auto;
+			padding: 100px 0 40px 0;
+			background-position: center;
+			display: block;
+			background-size: cover;
+			background-image: url(./hero-bg.png);
+			background-repeat: no-repeat;
+			height: auto;
+
+		}
+
+		.hero-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			gap: 20px;
+		}
+
+		.circle {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.icon {
+			width: 100px;
+		}
+
+		.stat {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 0 20px;
+			padding: 60px 20px;
+			text-align: center;
+		}
+
+		.choose-container {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+
+		}
+
+		.card {
+			width: 100%;
+			height: auto;
+			grid-area: auto;
+			padding: 20px;
+		}
+
+		.card h3 {
+			font-size: 1.3rem;
+
+		}
+
+		.card p {
+			font-size: 0.95rem;
+		}
+
+
+	}
+
+	.featured-episodes {
+		padding: 40px 15px;
+	}
+
+	.episodes-container {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+	}
+
+	.episode-card {
+		width: 100%;
+		max-width: 400px;
+	}
+}
